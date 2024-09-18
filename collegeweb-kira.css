@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gifcol.gif') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    color: black;
+    font-style: italic bolder;
+    shape-rendering: crispEdges;
+    text-shadow: grey;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+
+.btn-primary {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    border: 3px solid #fd5e53;
+    border-radius: 10px;
+    padding: 9px 25px;
+}
+
+.btn-primary:hover {
+    background-color: red;
+}
+
+
+/* Features Section */
+.card-mb-3 {
+    padding-top: 2rem;
+    padding-left:1rem ;
+    padding-right: 1rem;
+}
+
+
+/* CTA Section */
+.cta {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta .btn-secondary {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn-secondary:hover {
+    background-color: #218838;
+}
+
+/* Steps Section */
+.steps {
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+
+.steps .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.step-description {
+    max-width: 600px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin: 10px 0 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-slide{
+    background-color: whitesmoke;
+    overflow: auto;
+    padding-bottom: 7rem;
+    
+}
+
+.inner {
+    height: 10rem;
+    width: 50rem;
+    background-color: transparent;
+    margin: 30px 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* overflow: scroll; */
+  }
+  .outer {
+    height: 10rem;
+    width: 100rem;
+    display: flex;
+    /* overflow-x: auto; */
+    justify-content: space-between;
+    transform: initial;
+    transition: all 1s;
+    margin: 5rem 5rem;
+    
+  }
